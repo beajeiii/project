@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="letter" content="letter">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="index.html"><button class="undo-btn">⇐</button></a>
+    <a href="confirmation.html"><button class="btn-2" id="btn">💔</button></a>
+
+    <script>
+        const btn = document.getElementById("btn");
+
+        btn.addEventListener("mouseenter", () => {
+            btn.textContent = "💖"; 
+        });
+
+        btn.addEventListener("mouseleave", () => {
+            btn.textContent = "💔";  
+        });
+    </script>
+    <div class="p-2">
+     <p>I know I caused all of this, and honestly, I hate myself for fucking up everything. It’s really hard for me to ask or reach out one last time. I’m not asking to reconcile, don’t worry :)) — if this life you have now brings you happiness, then I don’t want to reopen anything.
+
+You don’t have to explain everything, and I won’t either. I already know you. I just want to hear a word from you — from what you feel about the decision I made when I was pressured and lost.
+
+I just need closure — to part in a way that honors everything we shared, without grudges or misunderstandings. If your silence means acceptance, and if what I feel about your response is true, I’ll take that as your answer. That alone will let me finally rest and focus on myself, and I will respect your space completely.
+
+Thank you for everything.
+     <br><br><br><br>
+        Clicking the button will take you to another message from the creator.</p>
+     </div>
+</body>
+</html> 

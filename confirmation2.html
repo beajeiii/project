@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="letter" content="letter">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="letter2.html"><button class="undo-btn2">⇐</button></a>
+    <a href="letter3.html"><button class="btn-3" id="btn">💔</button></a>
+
+    <script>
+        const btn = document.getElementById("btn");
+
+        btn.addEventListener("mouseenter", () => {
+            btn.textContent = "💖"; 
+        });
+
+        btn.addEventListener("mouseleave", () => {
+            btn.textContent = "💔";  
+        });
+    </script>
+     <p>Now I would like to give the next page the chance to apologize for all the things I’ve caused you. You can also just skip it if you're already tired of my apologies.<br>
+        <br><br><br>
+        Do you really wish to continue?</p>
+</body>
+</html> 

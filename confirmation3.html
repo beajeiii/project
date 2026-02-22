@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="letter" content="letter">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="letter3.html"><button class="undo-btn2">⇐</button></a>
+    <a href="spotify.html"><button class="btn-5" id="btn">💔</button></a>
+
+    <script>
+        const btn = document.getElementById("btn");
+
+        btn.addEventListener("mouseenter", () => {
+            btn.textContent = "💖"; 
+        });
+
+        btn.addEventListener("mouseleave", () => {
+            btn.textContent = "💔";  
+        });
+    </script>
+     <p>Did you finish reading or skipping almost everything? <br>
+        <br><br><br>
+        If you did, you may now proceed to the next page.</p>
+</body>
+</html> 

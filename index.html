@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="letter" content="letter">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <a href="letter.html"><button class="btn-1" id="btn">💔</button></a>
+
+    <script>
+        const btn = document.getElementById("btn");
+
+        btn.addEventListener("mouseenter", () => {
+            btn.textContent = "💖"; 
+        });
+
+        btn.addEventListener("mouseleave", () => {
+            btn.textContent = "💔";  
+        });
+    </script>
+     <p>A message awaits.<br>
+        Please click the button if you wish to continue.</p>
+</body>
+</html> 

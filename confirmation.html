@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="letter" content="letter">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="letter.html"><button class="undo-btn2">⇐</button></a>
+    <a href="letter2.html"><button class="btn-3" id="btn">💔</button></a>
+
+    <script>
+        const btn = document.getElementById("btn");
+
+        btn.addEventListener("mouseenter", () => {
+            btn.textContent = "💖"; 
+        });
+
+        btn.addEventListener("mouseleave", () => {
+            btn.textContent = "💔";  
+        });
+    </script>
+     <p>Yep — by the way, while I was crying myself to sleep and didn’t have the courage to talk to you because I was really embarrassed, 
+        I coped by writing my thoughts — the things I should’ve said — just to let it all out. I’ll leave it here; 
+        you don’t have to open it or you can just skip it if you don’t feel like it.<br>
+        <br><br><br>
+        Do you really wish to continue?</p>
+</body>
+</html> 
